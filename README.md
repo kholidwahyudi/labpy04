@@ -1,15 +1,18 @@
 # Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian sebagai berikut:
-####• Progam meminta memasukkan data sebanyak-banyaknya (gunakan perulangan)
-####• Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban t (Tidak), maka program akan menampilkan daftar datanya. • Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
+###• Progam meminta memasukkan data sebanyak-banyaknya (gunakan perulangan)
+###• Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban t (Tidak), maka program akan menampilkan daftar datanya. • Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
+
 ## Flowchart
 <img width="388" alt="3" src="https://user-images.githubusercontent.com/115494491/203001505-3a6a7789-4a9f-49f0-b516-9adb46e0d462.png">
 Berikut tampilan program menggunakan bahasa Python :
 <img width="960" alt="1" src="https://user-images.githubusercontent.com/115494491/203000807-b4cb71fe-331a-4120-9ce6-b86d85c5e90a.png">
+
 1. from prettytable import PrettyTable Membuat header table menggunakan prettytable. Variabel import berfungsi untuk memanggil file lain di dalam satu module yang berbeda.
+
 1. print("Program Input Data Mahasiswa") print() untuk menampilkan kalimat yang di input.
-tabelNama = PrettyTable(["No" ,"Nama" ,"NIM" ,"Nilai Tugas" ,"Nilai UTS" ,"Nilai UAS" ,"Nilai Akhir" ])
-a = 0
-(Deklarasi list)untuk menginput data yang dimasukkan kedalam list. input tabelNama untuk memanggil. sedangkan PrettyTable berfungsi untuk membungkus semua list. Deklarasi *a = 0* untuk membuat nomor pada isi table.
+- tabelNama = PrettyTable(["No" ,"Nama" ,"NIM" ,"Nilai Tugas" ,"Nilai UTS" ,"Nilai UAS" ,"Nilai Akhir" ])
+- a = 0
+- (Deklarasi list)untuk menginput data yang dimasukkan kedalam list. input tabelNama untuk memanggil. sedangkan PrettyTable berfungsi untuk membungkus semua list. Deklarasi *a = 0* untuk membuat nomor pada isi table.
 1. Membuat program perulangan menggunakan py while True:
 1.  a += 1
  b = input("Masukkan Nama : ")
